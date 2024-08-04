@@ -31,6 +31,99 @@ This is a simple task manager application written in Python. It allows users to 
    ```bash
    python task_manager.py
 
+
+here’s an example output of how the task management system would function:
+Task Manager Output:
+Task Manager
+1. Add Task
+2. Delete Task
+3. Update Task Status
+4. Search Tasks
+5. View Tasks
+6. Export Tasks
+7. Import Tasks
+8. Quit
+Enter your choice: 1
+
+Enter task title: Complete Assignment
+Enter task description: Finish the math assignment by tomorrow
+Enter due date (DD-MM-YYYY): 06-08-2024
+Enter priority (Low/Medium/High): High
+Task added successfully!
+
+Task Manager
+1. Add Task
+2. Delete Task
+3. Update Task Status
+4. Search Tasks
+5. View Tasks
+6. Export Tasks
+7. Import Tasks
+8. Quit
+Enter your choice: 5
+
+Tasks:
+Title: Complete Assignment
+Description: Finish the math assignment by tomorrow
+Due Date: 06-08-2024
+Priority: High
+Status: Pending
+Subtasks: 
+Assigned To: None
+Labels: 
+Attachments: 
+
+Task Manager
+1. Add Task
+2. Delete Task
+3. Update Task Status
+4. Search Tasks
+5. View Tasks
+6. Export Tasks
+7. Import Tasks
+8. Quit
+Enter your choice: 3
+
+Enter task ID to update status: 1a2b3c4d
+Enter new status: Completed
+Task status updated successfully!
+
+Task Manager
+1. Add Task
+2. Delete Task
+3. Update Task Status
+4. Search Tasks
+5. View Tasks
+6. Export Tasks
+7. Import Tasks
+8. Quit
+Enter your choice: 5
+
+Tasks:
+Title: Complete Assignment
+Description: Finish the math assignment by tomorrow
+Due Date: 06-08-2024
+Priority: High
+Status: Completed
+Subtasks: 
+Assigned To: None
+Labels: 
+Attachments: 
+
+Task Manager
+1. Add Task
+2. Delete Task
+3. Update Task Status
+4. Search Tasks
+5. View Tasks
+6. Export Tasks
+7. Import Tasks
+8. Quit
+Enter your choice: 8
+
+Goodbye!
+
+
 Usage
 Add Task: Follow the prompts to add a new task.
 Delete Task: Remove an existing task by specifying its ID.
